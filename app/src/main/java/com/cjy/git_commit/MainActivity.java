@@ -17,6 +17,13 @@ public class MainActivity extends AppCompatActivity {
         test2();
 
         dev_test();
+        master();
+    }
+
+    private void master() {
+
+        Log.d("MainActivity", " 现在就已经切换到主分支了");
+
     }
 
     private void dev_test() {
