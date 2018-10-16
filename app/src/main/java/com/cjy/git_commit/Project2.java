@@ -9,7 +9,14 @@ public class Project2 {
     private void fun_need() {
         //
 
+        setBranch();
     }
+
+    private void setBranch() {
+        Log.d("Project2", "this a branch code ");
+
+    }
+
     public void main() {
         Log.i("Project2", "do some");
     }
