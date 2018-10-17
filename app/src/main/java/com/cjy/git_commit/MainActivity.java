@@ -8,6 +8,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
+    private Sample1 sample1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         dev_test();
         master();
+        sample1 = new Sample1(this);
     }
 
     private void master() {
